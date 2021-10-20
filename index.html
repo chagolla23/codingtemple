@@ -1,1 +1,128 @@
 <!DOCTYPE html>
+<head>
+    <title>Jonathan's Portofolio</title>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://i.imgur.com/6lP5BND.jpeg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+      form {
+          max-width: 600px;
+          margin: auto; 
+          padding: 10px;
+          justify-items: center;
+   
+      }
+
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.imgur.com/vzzVM1L.jpg">
+    <h1>Hello, I'm Jonathan Chagolla.</h1>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/jonathan-chagolla/">Linkedin</a></li>
+      <li><a href="https://github.com/chagolla23">GitHub</a></li>
+      <li><a href="https://twitter.com/jonseven_">Twitter</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>About Me</h2>
+    <p>Software develpment has been a longtime interest of mine.   
+        My pursuit to become a software developer stems from the desire to have the opportunity to innovate and create new technologies. I find it to be exciting and very rewarding developing new tools and applications that have the potential to impact the world. As a developer, I will always be learning new information every day and my skills will be constantly put to the test.
+        <div> Born on June 10, 1995, I am a 26 years old Latino male. I currently reside in the town of Pico Rivera, a suburb located East of Los Angeles.  I was born to Genaro and Maria Chagolla. My parents originated from Mexico and came to the states in pursuit of the <strong>"American Dream"</strong> thirty years ago.
+        Because of their decision, I was able to take advantage and pursuit higher education. I had the opportunity to obtain an Associate in Science, from Pasadena City College and a Bachelors in Social Work from California State University Los Angeles. Throughout my journey, I have never put limitations on what I can achieve.</div>  </p>
+
+  </article>
+  <article>
+    <h2>Hobbies</h2>
+    <p>
+        <ol>
+            <li><img src="https://i.imgur.com/uQpoMza.jpgWeight">I love to work out.</li>
+            <li><img src="https://i.imgur.com/IKBP09Q.jpeg">I am always learning new things.</li>
+            <li><img src="https://i.imgur.com/DdSYLyx.jpeg">Discovering new places to eat with friends.</li>
+            <li><img src="https://i.imgur.com/WsXpZq0.jpegg">Hanging out with my girlfriend.</li>
+        
+        </ol>
+    </p>
+    
+  </article>
+  <article>
+    <h2>Goals</h2>
+    <p>
+        During my learning tenure at coding temple, I have set 3 goals for me to accomplish. 
+
+        <div>
+        <strong>Short-term goal:</strong> To create good study habits and keep up with the material.
+        </div>
+
+        <div>
+        <strong>Mid-term goal:</strong>
+         Become great at coding in one language by week 7. Create a network in my cohort and assist others. 
+        </div>
+
+        <div>
+         <strong>Long-term goal:</strong>To land a Jr. Deveolper role within 90 days of finishing the program. 
+        </div>
+    </p>
+</article>
+
+<form>
+    <h2>Contact Me</h2>
+    <div>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="contact_person">
+    </div>
+
+    <div>
+    <label for="email">E-mail</label>
+    <input type="email" id="contact_email" name="contact_person_email">
+    </div>
+
+    <div>
+    <label for="message">Message</label>
+    <textarea id="message" name="visitor_message"></textarea>
+    </div>
+
+    <div>
+    <button type="submit">Submit</button>
+    </div>
+    
+</form>
